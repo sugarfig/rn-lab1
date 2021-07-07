@@ -57,14 +57,50 @@ Start the development server with the following:
 ```
 expo start
 ```
+This should open up something in your web browser! In the future, you only need to run this command to get your project running. 
 
-This should open up a web browser!
+![image](https://user-images.githubusercontent.com/26272095/124739226-8622f800-dece-11eb-9006-85771624dff2.png)
 
-You should also try scanning the QR code with your Expo app. 
+
+✅ Click "Run in web browser" and you should see a blank screen with the words "Open up App.js to start working on your app!"
+
+✅ Try scanning the QR code with your Expo app/Camera to see the same screen on your phone. 
 
 From the Expo Docs: "When you run `expo start`, Expo CLI starts Metro Bundler, which is an HTTP server that compiles the JavaScript code of our app using Babel and serves it to the Expo app. It also pops up Expo Dev Tools, a graphical interface for Expo CLI."
 
+### 6. 👾 Make your first change. 
+
+Open up `App.js` in VSCode.
+
+Change the text on line 8 to whatever you want. You should see it update on your device automatically. 
+
+Woohoo! You got your first mobile app running. 
+
+
 # Part 2: Components
+
+We're going to learn about React Native components in baby steps. For today, follow along the Expo tutorial to start using and styling some common components. 
+
+👇🏼 Note: instead of trying the examples on Snack, go ahead and make the changes in VSCode to the project you just created in the setup. 
+
+### 1. 🌈 [Styling text](https://docs.expo.io/tutorial/text/)
+
+### 2. 👾 [Adding an image](https://docs.expo.io/tutorial/image/)
+
+### 3.  [Creating a button](https://docs.expo.io/tutorial/button/)
+
+
 
 
 # Part 3: Getting Down to Business with State and Props
+
+
+
+
+
+
+### Optional -- if you're using the iOS simulator, 
+In the emulator with your app open, click “cmd+d”, and enable hot reloading, but disable live reloading. 
+
+* Hot reloading will reflect whatever changes you make, but it will keep the state of the app. Hot reload is helpful with faster refresh times and it’s suitable for UI tweaks. You can also reload manually from the same menu “cmd+d”.
+* Live reload will reload the whole app. 
