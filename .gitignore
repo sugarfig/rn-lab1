@@ -1,3 +1,6 @@
+.expo
+.DS_Store
+
 # Logs
 logs
 *.log
